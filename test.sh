@@ -11,7 +11,7 @@ function bk() {
 }
 
 function up() {
-    aws s3 cp "$BK_PATH/$BK_FILE_NAME.zip"  "s3://aokitest20190905"
+    aws s3 cp "$BK_PATH/$BK_FILE_NAME.zip"  "s3://aokitest########"
     return 1
 }
 
