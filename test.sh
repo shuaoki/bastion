@@ -20,8 +20,8 @@ function my_error() {
     exit 1
 }
 
-echo "Start bk"
+echo "Start Backup"
 bk
-echo "Start upload to s3"
+echo "Start Upload to s3"
 up
 echo "Done"      
