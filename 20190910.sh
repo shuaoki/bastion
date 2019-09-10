@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 BK_DATE=`date +'%Y%m%d'`
 BK_NAME=/root/git/menta
-DL_DATE=`/bin/date -d '8 day ago' +%Y%m%d`
+DL_DATE=`/bin/date -d '7 day ago' +%Y%m%d`
 
 mysqldump --single-transaction -u root -pAokipiza0027# menta > $BK_NAME/menta_$BK_DATE.dump > /dev/null 2>&1
 
